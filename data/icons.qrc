@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>circle-solid.svg</file>
+        <file>pencil-solid.svg</file>
+        <file>plus-solid.svg</file>
+        <file>rotate-right-solid.svg</file>
+        <file>trash-solid.svg</file>
+    </qresource>
+</RCC>

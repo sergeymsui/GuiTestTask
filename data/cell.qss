@@ -1,0 +1,18 @@
+
+Cell {
+    border-width: 1px;
+	border-style: solid;
+	border-color: #4fa08b;
+	border-radius: 0;
+	background-color: #cbdbf4;
+	color: #fff;
+}
+
+Cell:hover {
+    background-color: #e0edfd;
+}
+
+Cell:pressed {
+    background-color: #b0c4df;
+}
+
