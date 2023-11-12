@@ -24,5 +24,5 @@ private slots:
     void slotEditPressed();
 signals:
     void deleteRequest(Cell*);
-    void edutRequest(Cell*);
+    void editRequest(Cell*);
 };

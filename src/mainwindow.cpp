@@ -40,7 +40,7 @@ void MainWindow::slotAddWidget() {
         cell->setName(dialog.getName());
         cell->setIp(dialog.getIp());
 
-        connect(cell, &Cell::edutRequest, this, &MainWindow::editCell);
+        connect(cell, &Cell::editRequest, this, &MainWindow::editCell);
         connect(cell, &Cell::deleteRequest, this, &MainWindow::deleteCell);
 
         ui->cellLayout->insertWidget(0, cell);

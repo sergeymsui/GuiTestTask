@@ -62,5 +62,5 @@ void Cell::slotTrashPressed() {
 }
 
 void Cell::slotEditPressed() {
-    emit edutRequest(this);
+    emit editRequest(this);
 }
