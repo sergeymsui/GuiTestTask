@@ -30,25 +30,28 @@
       </spacer>
      </item>
      <item>
-      <widget class="ClickableLabel" name="pencil" native="true">
+      <widget class="CellButton" name="pencil" native="true">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
        <property name="text" stdset="0">
         <string/>
-       </property>
-       <property name="pixmap" stdset="0">
-        <pixmap resource="../data/icons.qrc">:/pencil-solid.svg</pixmap>
-       </property>
-       <property name="scaledContents" stdset="0">
-        <bool>false</bool>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="ClickableLabel" name="trash" native="true">
+      <widget class="CellButton" name="trash" native="true">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
        <property name="text" stdset="0">
         <string/>
        </property>
-       <property name="pixmap" stdset="0">
-        <pixmap resource="../data/icons.qrc">:/trash-solid.svg</pixmap>
+       <property name="checkable" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="default" stdset="0">
+        <bool>false</bool>
        </property>
       </widget>
      </item>
@@ -109,9 +112,9 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>ClickableLabel</class>
+   <class>CellButton</class>
    <extends>QWidget</extends>
-   <header>clickablelabel.h</header>
+   <header>cellbutton.h</header>
   </customwidget>
  </customwidgets>
  <resources>

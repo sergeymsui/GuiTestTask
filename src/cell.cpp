@@ -1,8 +1,8 @@
 
-#include <QFile>
-
 #include "cell.h"
 #include "ui_cell.h"
+
+#include <QFile>
 
 Cell::Cell(QWidget *parent) : QPushButton(parent), ui(new Ui::Cell) {
     ui->setupUi(this);
@@ -12,8 +12,16 @@ Cell::Cell(QWidget *parent) : QPushButton(parent), ui(new Ui::Cell) {
     ui->nameLbl->setText("NAME");
     ui->ipLbl->setText("IP");
 
-    connect(ui->pencil, &ClickableLabel::clicked, this, &Cell::slotEditPressed);
-    connect(ui->trash, &ClickableLabel::clicked, this, &Cell::slotTrashPressed);
+    // Default
+    ui->pencil->setDefaultIcon(QIcon(":/pencil-solid.svg"));
+    ui->trash->setDefaultIcon(QIcon(":/trash-solid.svg"));
+
+    // Hover
+    ui->pencil->setHoverIcon(QIcon(":/pencil-solid-hover.svg"));
+    ui->trash->setHoverIcon(QIcon(":/trash-solid-hover.svg"));
+
+    connect(ui->pencil, &QPushButton::clicked, this, &Cell::slotEditPressed);
+    connect(ui->trash, &QPushButton::clicked, this, &Cell::slotTrashPressed);
 
     QFile styleFile;
     styleFile.setFileName("cell.qss");

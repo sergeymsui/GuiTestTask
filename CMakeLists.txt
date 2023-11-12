@@ -17,12 +17,14 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/include)
 include_directories(${CMAKE_BINARY_DIR})
 
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/data/cell.qss ${CMAKE_BINARY_DIR}/cell.qss COPYONLY)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/data/cellbutton.qss ${CMAKE_BINARY_DIR}/cellbutton.qss COPYONLY)
 
 set(PROJECT_HDR
     ${CMAKE_CURRENT_SOURCE_DIR}/src/include/cell.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/include/celldialog.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/include/mainwindow.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/include/clickablelabel.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/include/cellbutton.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/include/cellbuttoneventfilter.h
 )
 
 set(PROJECT_SRC
@@ -30,7 +32,8 @@ set(PROJECT_SRC
     ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/mainwindow.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/celldialog.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/clickablelabel.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/cellbutton.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/cellbuttoneventfilter.cpp
 )
 
 set(PROJECT_UI
