@@ -9,8 +9,8 @@ class CellButton : public QPushButton {
 public:
     explicit CellButton(QWidget* parent = nullptr);
 
-    void setHoverState();
-    void setDefaultState();
+    void toHoverState();
+    void toDefaultState();
 
     void setHoverIcon(const QIcon& icon);
     void setDefaultIcon(const QIcon& icon);

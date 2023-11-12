@@ -20,6 +20,9 @@ Cell::Cell(QWidget *parent) : QPushButton(parent), ui(new Ui::Cell) {
     ui->pencil->setHoverIcon(QIcon(":/pencil-solid-hover.svg"));
     ui->trash->setHoverIcon(QIcon(":/trash-solid-hover.svg"));
 
+    ui->pencil->toDefaultState();
+    ui->trash->toDefaultState();
+
     connect(ui->pencil, &QPushButton::clicked, this, &Cell::slotEditPressed);
     connect(ui->trash, &QPushButton::clicked, this, &Cell::slotTrashPressed);
 

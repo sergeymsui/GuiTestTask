@@ -12,9 +12,9 @@ bool CellButtonEventFilter::eventFilter(QObject *obj, QEvent *event) {
 
     if (obj == pb) {
         if (event->type() == QEvent::HoverEnter)
-            pb->setHoverState();
+            pb->toHoverState();
         else if(event->type() == QEvent::HoverLeave)
-            pb->setDefaultState();
+            pb->toDefaultState();
     }
 
     return QObject::eventFilter(obj, event);

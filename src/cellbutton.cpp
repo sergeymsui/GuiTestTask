@@ -20,11 +20,11 @@ CellButton::CellButton(QWidget *parent) : QPushButton(parent) {
     }
 }
 
-void CellButton::setHoverState() {
+void CellButton::toHoverState() {
     setIcon(m_hoverIcon);
 }
 
-void CellButton::setDefaultState() {
+void CellButton::toDefaultState() {
     setIcon(m_defaultIcon);
 }
 
@@ -34,6 +34,4 @@ void CellButton::setHoverIcon(const QIcon &icon) {
 
 void CellButton::setDefaultIcon(const QIcon &icon) {
     m_defaultIcon = icon;
-
-    setIcon(icon);
 }
