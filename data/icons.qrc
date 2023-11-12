@@ -5,5 +5,7 @@
         <file>plus-solid.svg</file>
         <file>rotate-right-solid.svg</file>
         <file>trash-solid.svg</file>
+        <file>pencil-solid-hover.svg</file>
+        <file>trash-solid-hover.svg</file>
     </qresource>
 </RCC>

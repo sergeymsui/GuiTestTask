@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 17.5 20"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="trash-solid-hover.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   width="17.5"
+   height="20"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.4882812"
+     inkscape:cx="218.70867"
+     inkscape:cy="90.036748"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+  <path
+     d="M 5.28125,0.69140625 5,1.25 H 1.25 C 0.55859375,1.25 0,1.8085937 0,2.5 0,3.1914063 0.55859375,3.75 1.25,3.75 h 15 c 0.691406,0 1.25,-0.5585937 1.25,-1.25 0,-0.6914063 -0.558594,-1.25 -1.25,-1.25 H 12.5 L 12.21875,0.69140625 C 12.007813,0.265625 11.574219,0 11.101563,0 H 6.3984375 C 5.9257813,0 5.4921875,0.265625 5.28125,0.69140625 Z M 16.25,5 h -15 L 2.078125,18.242187 C 2.140625,19.230469 2.9609375,20 3.9492188,20 h 9.6015622 c 0.988282,0 1.808594,-0.769531 1.871094,-1.757813 z"
+     id="path2"
+     style="stroke-width:0.0390625;fill:#9de3d1;fill-opacity:1" />
+  <path
+     d="M 5.28125,0.69140625 5,1.25 H 1.25 C 0.55859375,1.25 0,1.8085937 0,2.5 0,3.1914063 0.55859375,3.75 1.25,3.75 h 15 c 0.691406,0 1.25,-0.5585937 1.25,-1.25 0,-0.6914063 -0.558594,-1.25 -1.25,-1.25 H 12.5 L 12.21875,0.69140625 C 12.007813,0.265625 11.574219,0 11.101563,0 H 6.3984375 C 5.9257813,0 5.4921875,0.265625 5.28125,0.69140625 Z M 16.25,5 h -15 L 2.078125,18.242187 C 2.140625,19.230469 2.9609375,20 3.9492188,20 h 9.6015622 c 0.988282,0 1.808594,-0.769531 1.871094,-1.757813 z"
+     id="path129"
+     style="stroke-width:0.0390625;fill:#9de3d1;fill-opacity:1" />
+</svg>

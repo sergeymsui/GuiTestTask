@@ -1,11 +1,11 @@
 
 Cell {
     border-width: 1px;
-	border-style: solid;
-	border-color: #4fa08b;
-	border-radius: 0;
-	background-color: #cbdbf4;
-	color: #fff;
+    border-style: solid;
+    border-color: #4fa08b;
+    border-radius: 0;
+    background-color: #cbdbf4;
+    color: #fff;
 }
 
 Cell:hover {
